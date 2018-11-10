@@ -1,0 +1,75 @@
+/* ------ POLICES ------*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+/* -----  COLOR ------*/
+body {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  background-color: #F2F2F2;
+  box-sizing: border-box;
+  line-height: 1.5;
+  text-align: center; }
+  body a,
+  body a:focus,
+  body a:visited,
+  body a:hover {
+    text-decoration: none;
+    color: inherit; }
+  body img {
+    max-width: 100%; }
+  body h1 {
+    text-align: center;
+    margin-bottom: 100px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 5rem; }
+  body h2 {
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 4rem; }
+  body h3 {
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 3rem; }
+  body .hero {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(../img/clavier.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: rgba($black , 0.5);*/
+    color: #FFFFFF;
+    margin-bottom: 60px; }
+    body .hero p {
+      text-align: center;
+      font-size: 3rem; }
+  body .who .study,
+  body .who .skills {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-bottom: 1px #000000 3px;
+    border-top: 1px #000000 3px; }
+    body .who .study ul,
+    body .who .skills ul {
+      margin-bottom: 40px; }
+  body .hobby .gif {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px; }
+    body .hobby .gif iframe {
+      max-width: 100%; }
+  body .website a p {
+    margin-top: 20px; }
+  body footer {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    position: relative;
+    border-top: solid #000000 2px;
+    padding-top: 30px; }
+    body footer a {
+      position: absolute;
+      left: 50%;
+      margin-left: -60px; }
+      body footer a img {
+        width: 120px;
+        height: auto; }

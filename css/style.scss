@@ -1,0 +1,105 @@
+@import 'vars';
+@import 'mixins';
+
+body {
+    font-size: 16px;
+    font-family: $font;
+    background-color: $grey;
+    box-sizing: border-box;
+    line-height: 1.5;
+    text-align: center;
+
+    a,
+    a:focus,
+    a:visited,
+    a:hover {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    h1 {
+        text-align: center;
+        @include title;
+        font-weight: $fontBold;
+        font-size : 5rem;
+    }
+    h2 {
+        @include title;
+        font-size : 4rem;
+    }
+    h3 {
+        @include title;
+        font-size : 3rem;
+    }
+
+    .hero {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-image: url(../img/clavier.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+       /* background-color: rgba($black , 0.5);*/
+        color: $white;
+        margin-bottom: 60px;
+
+        p {
+            text-align: center;
+            font-size : 3rem;
+        }
+    }
+
+    .who {
+        .study,
+        .skills {
+            @include space-word;
+            border-bottom: 1px $black 3px;
+            border-top: 1px $black 3px;
+            ul {
+                margin-bottom: 40px;
+            }
+        }
+        
+    }
+    .hobby{
+        .gif{
+            text-align: center;
+           width: 100%;
+            margin-bottom: 50px;
+            iframe{
+                max-width: 100%;
+            }
+        }
+    }
+    .website {
+            a {
+                p {
+                    margin-top: 20px;
+                }
+            }
+
+        }
+
+
+    footer {
+        @include space-word;
+        position: relative;
+        border-top: solid $black 2px;
+        padding-top: 30px;
+        a {
+            position: absolute;
+            left: 50%;
+            margin-left: -60px;
+            img {
+                width: 120px;
+                height: auto;
+
+
+            }
+        }
+    }
+}
